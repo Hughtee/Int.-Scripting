@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour {
 
 	public float maxSpeed = 5f; // the max speed of the player
 
-	private Transform thisTransform; // cache of the this.transform
+	//private Transform thisTransform; // cache of the this.transform
 	private Rigidbody2D thisRigidbody; // cache of the this.rigidbody
 
 	private float h; // horizontal input temp 
@@ -16,7 +16,7 @@ public class PlayerController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		thisTransform = this.transform;
+		//thisTransform = this.transform;
 		thisRigidbody = this.GetComponent<Rigidbody2D>();
 	}
 	

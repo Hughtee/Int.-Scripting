@@ -17,7 +17,7 @@ public class PlayerController : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		thisTransform = this.transform;
-		thisRigidbody = this.rigidbody2D;
+		thisRigidbody = this.GetComponent<Rigidbody2D>();
 	}
 	
 	// Update is called once per frame
